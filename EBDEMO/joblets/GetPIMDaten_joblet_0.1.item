@@ -2,12 +2,12 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore">
   <model:JobletProcess defaultContext="Default" jobType="Standard">
     <context confirmationNeeded="false" name="Default">
-      <contextParameter comment="" name="PIM_Server" prompt="PIM_Server?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_String" value="mysql"/>
+      <contextParameter comment="" name="PIM_Server" prompt="PIM_Server?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_String" value="demodata.cmvlovaqakwq.us-west-2.rds.amazonaws.com"/>
       <contextParameter comment="" name="PIM_Port" prompt="PIM_Port?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_String" value="3306"/>
       <contextParameter comment="" name="PIM_Login" prompt="PIM_Login?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_String" value="talend"/>
       <contextParameter comment="" name="PIM_AdditionalParams" prompt="PIM_AdditionalParams?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_String" value="noDatetimeStringSync=true&amp;useSSL=false"/>
       <contextParameter comment="" name="PIM_Database" prompt="PIM_Database?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_String" value="demo_data"/>
-      <contextParameter comment="" name="PIM_Password" prompt="PIM_Password?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_Password" value="YdTnhbqBAdo="/>
+      <contextParameter comment="" name="PIM_Password" prompt="PIM_Password?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_Password" value="vfBijNiHpMU58PHrlKz8kA=="/>
     </context>
     <parameters>
       <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
