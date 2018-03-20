@@ -3,7 +3,7 @@
   <model:JobletProcess defaultContext="Default" jobType="Standard">
     <context confirmationNeeded="false" name="Default">
       <contextParameter comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="_Lak7YCiPEeidWZ_txNxMYQ" type="id_String" value="C:/Users/Administrator/Documents/demo"/>
-      <contextParameter comment="" name="master_offline" prompt="master_offline?" promptNeeded="false" repositoryContextId="_Qsm1QCt6EeijFMldQhoTaQ" type="id_Boolean" value="true"/>
+      <contextParameter comment="" name="master_offline" prompt="master_offline?" promptNeeded="false" repositoryContextId="_Qsm1QCt6EeijFMldQhoTaQ" type="id_Boolean" value="false"/>
     </context>
     <parameters>
       <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>

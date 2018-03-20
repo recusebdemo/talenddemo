@@ -3,7 +3,7 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="_Lak7YCiPEeidWZ_txNxMYQ" type="id_String" value="C:/Users/Administrator/Documents/demo"/>
     <contextParameter comment="" name="offline_mode" prompt="offline_mode?" promptNeeded="false" type="id_Boolean" value="true"/>
-    <contextParameter comment="" name="master_offline" prompt="master_offline?" promptNeeded="false" repositoryContextId="_Qsm1QCt6EeijFMldQhoTaQ" type="id_Boolean" value="true"/>
+    <contextParameter comment="" name="master_offline" prompt="master_offline?" promptNeeded="false" repositoryContextId="_Qsm1QCt6EeijFMldQhoTaQ" type="id_Boolean" value="false"/>
     <contextParameter comment="" name="PIM_Server" prompt="PIM_Server?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_String" value="demodata.cmvlovaqakwq.us-west-2.rds.amazonaws.com"/>
     <contextParameter comment="" name="PIM_Port" prompt="PIM_Port?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_String" value="3306"/>
     <contextParameter comment="" name="PIM_Login" prompt="PIM_Login?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_String" value="talend"/>
