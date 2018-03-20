@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_szK3ESwZEeikdb73DTSiWA" label="ebdemo" description="" language="java" technicalLabel="EBDEMO" creationDate="2018-03-20T09:35:14.156+0100" author="_szK3EiwZEeikdb73DTSiWA" productVersion="Talend Data Services Platform-6.5.1.20180116_1512" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/recusebdemo/talenddemo.git&quot;,&quot;login&quot;:&quot;recusebdemo&quot;,&quot;passwd&quot;:&quot;vO7D2lQNv+8ksqdgBJXjrg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" bigData="false"/>
+  <TalendProperties:User xmi:id="_szK3EiwZEeikdb73DTSiWA" login="admin@eurobaustoff.com" firstName="security" lastName="security" type="DQ" additionnalData="{}"/>
+</xmi:XMI>
