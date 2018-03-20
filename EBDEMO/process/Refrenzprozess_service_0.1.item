@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="_Lak7YCiPEeidWZ_txNxMYQ" type="id_String" value="/Volumes/DATA/jcl/Public/Talend/PreSalesDACH - Documents/Customers/EUROBAUSTOFF/2_RFP/Referenzprozess"/>
+    <contextParameter comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="_Lak7YCiPEeidWZ_txNxMYQ" type="id_String" value="C:/Users/Administrator/Documents/demo"/>
     <contextParameter comment="" name="offline_mode" prompt="offline_mode?" promptNeeded="false" type="id_Boolean" value="true"/>
     <contextParameter comment="" name="master_offline" prompt="master_offline?" promptNeeded="false" repositoryContextId="_Qsm1QCt6EeijFMldQhoTaQ" type="id_Boolean" value="true"/>
     <contextParameter comment="" name="PIM_Server" prompt="PIM_Server?" promptNeeded="false" repositoryContextId="_ffwEcCiQEeidWZ_txNxMYQ" type="id_String" value="demodata.cmvlovaqakwq.us-west-2.rds.amazonaws.com"/>

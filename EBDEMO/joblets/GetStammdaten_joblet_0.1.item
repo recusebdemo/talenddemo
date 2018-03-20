@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore">
   <model:JobletProcess defaultContext="Default" jobType="Standard">
     <context confirmationNeeded="false" name="Default">
-      <contextParameter comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="_Lak7YCiPEeidWZ_txNxMYQ" type="id_String" value="/Volumes/DATA/jcl/Public/Talend/PreSalesDACH - Documents/Customers/EUROBAUSTOFF/2_RFP/Referenzprozess"/>
+      <contextParameter comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="_Lak7YCiPEeidWZ_txNxMYQ" type="id_String" value="C:/Users/Administrator/Documents/demo"/>
       <contextParameter comment="" name="master_offline" prompt="master_offline?" promptNeeded="false" repositoryContextId="_Qsm1QCt6EeijFMldQhoTaQ" type="id_Boolean" value="true"/>
     </context>
     <parameters>
