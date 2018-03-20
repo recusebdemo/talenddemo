@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_rMM2wCiLEeir_u8VJyUsJw" name="Gefahrgutdaten" label="Gefahrgutdaten" dataPackage="_qBOt4CiKEeir_u8VJyUsJw" Server="Localhost 127.0.0.1" FilePath="/Volumes/DATA/jcl/Public/Talend/PreSalesDACH - Documents/Customers/EUROBAUSTOFF/2_RFP/Referenzprozess/temp/Gefahrgutdaten.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_qBOt4CiKEeir_u8VJyUsJw" name="default" dataManager="_rMM2wCiLEeir_u8VJyUsJw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qBOt4SiKEeir_u8VJyUsJw" id="_-li78CiJEeir_u8VJyUsJw" label="Gefahrgutdaten">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qBOt4iiKEeir_u8VJyUsJw" label="Satzart" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qBOt4yiKEeir_u8VJyUsJw" label="Mandantennummer" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qBOt5SiKEeir_u8VJyUsJw" label="Artikelnummer" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xgjwwCiLEeir_u8VJyUsJw" name="Laufende_Nummer" label="Laufende_Nummer" length="2" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qBOt5CiKEeir_u8VJyUsJw" label="UN__Nummer" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_80QSkCiLEeir_u8VJyUsJw" name="Bezeichnung" label="Bezeichnung" length="500" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-RV7oCiLEeir_u8VJyUsJw" name="Column7" label="Column7" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__HguoCiLEeir_u8VJyUsJw" name="Column8" label="Column8" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E_X54CiMEeir_u8VJyUsJw" name="Column9" label="Column9" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FA-cYCiMEeir_u8VJyUsJw" name="Column10" label="Column10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FC1dkCiMEeir_u8VJyUsJw" name="Column11" label="Column11" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FEcAECiMEeir_u8VJyUsJw" name="Column12" label="Column12" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FF4KgCiMEeir_u8VJyUsJw" name="Column13" label="Column13" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FHabkCiMEeir_u8VJyUsJw" name="Column14" label="Column14" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FI2mACiMEeir_u8VJyUsJw" name="Column15" label="Column15" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FKPGECiMEeir_u8VJyUsJw" name="Column16" label="Column16" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FL2PoCiMEeir_u8VJyUsJw" name="Column17" label="Column17" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FSV5MCiMEeir_u8VJyUsJw" name="Column18" label="Column18" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FUP9sCiMEeir_u8VJyUsJw" name="Column19" label="Column19" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_PlAb0CiMEeir_u8VJyUsJw" name="PDF__Nummer" label="PDF__Nummer" length="6" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TutcICiMEeir_u8VJyUsJw" name="Gefahrensymbole" label="Gefahrensymbole" length="11" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

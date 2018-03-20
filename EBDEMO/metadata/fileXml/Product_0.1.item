@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_AO1QICiZEeidWZ_txNxMYQ" name="Product" dataPackage="_AO1QMCiZEeidWZ_txNxMYQ" XmlFilePath="/Volumes/DATA/jcl/Public/Talend/PreSalesDACH - Documents/Customers/EUROBAUSTOFF/2_RFP/Referenzprozess/temp/Product.xml" Encoding="UTF-8" fileContent="3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D3822207374616E64616C6F6E653D2279657322203F3E0A3C50726F647563743E0A20203C536B753E31383530353C2F536B753E0A20203C4E616D653E53502032357832352044534B4120474F4C444C494E4520676F6C646F636B65723C2F4E616D653E0A20203C4465736372697074696F6E3E3C2F4465736372697074696F6E3E0A20203C53686F7274446573633E474F4C444C494E453C2F53686F7274446573633E0A20203C50726963653E33342C35303C2F50726963653E0A20203C43757272656E63793E4555523C2F43757272656E63793E0A20203C5265706C6163656450726963653E33352C39393C2F5265706C6163656450726963653E0A20203C45414E3E343031323736373435373632373C2F45414E3E0A20203C506963747572653E3C2F506963747572653E0A20203C43617465676F727949443E3C2F43617465676F727949443E0A20203C5175616E74697479556E69743E0A202020203C426173655175616E74697479556E69743E7965733C2F426173655175616E74697479556E69743E0A202020203C4465736372697074696F6E3E5374C3BC636B3C2F4465736372697074696F6E3E0A20203C2F5175616E74697479556E69743E0A20203C5175616E74697479556E69743E0A202020203C4F726465725175616E74697479556E69743E7965733C2F4F726465725175616E74697479556E69743E0A202020203C4465736372697074696F6E3E50616B65743C2F4465736372697074696F6E3E0A202020203C466163746F723E31333C2F466163746F723E0A20203C2F5175616E74697479556E69743E0A20203C5175616E74697479556E69743E0A202020203C4465736372697074696F6E3E517561647261746D657465723C2F4465736372697074696F6E3E0A202020203C466163746F723E31363C2F466163746F723E0A20203C2F5175616E74697479556E69743E0A3C2F50726F647563743E0A">
+    <schema xmi:id="_AO1QISiZEeidWZ_txNxMYQ" LimitBoucle="50" AbsoluteXPathQuery="/Product/QuantityUnit">
+      <schemaTargets xmi:id="_AO1QIiiZEeidWZ_txNxMYQ" RelativeXPathQuery="../Sku" TagName="Sku"/>
+      <schemaTargets xmi:id="_AO1QIyiZEeidWZ_txNxMYQ" RelativeXPathQuery="../Name" TagName="Name"/>
+      <schemaTargets xmi:id="_AO1QJCiZEeidWZ_txNxMYQ" RelativeXPathQuery="../Description" TagName="Description"/>
+      <schemaTargets xmi:id="_AO1QJSiZEeidWZ_txNxMYQ" RelativeXPathQuery="../ShortDesc" TagName="ShortDesc"/>
+      <schemaTargets xmi:id="_AO1QJiiZEeidWZ_txNxMYQ" RelativeXPathQuery="../Price" TagName="Price"/>
+      <schemaTargets xmi:id="_AO1QJyiZEeidWZ_txNxMYQ" RelativeXPathQuery="../Currency" TagName="Currency"/>
+      <schemaTargets xmi:id="_AO1QKCiZEeidWZ_txNxMYQ" RelativeXPathQuery="../ReplacedPrice" TagName="ReplacedPrice"/>
+      <schemaTargets xmi:id="_AO1QKSiZEeidWZ_txNxMYQ" RelativeXPathQuery="../EAN" TagName="EAN"/>
+      <schemaTargets xmi:id="_AO1QKiiZEeidWZ_txNxMYQ" RelativeXPathQuery="../Picture" TagName="Picture"/>
+      <schemaTargets xmi:id="_AO1QKyiZEeidWZ_txNxMYQ" RelativeXPathQuery="../CategoryID" TagName="CategoryID"/>
+      <schemaTargets xmi:id="_AO1QLCiZEeidWZ_txNxMYQ" RelativeXPathQuery="BaseQuantityUnit" TagName="QU_Base"/>
+      <schemaTargets xmi:id="_AO1QLSiZEeidWZ_txNxMYQ" RelativeXPathQuery="Description" TagName="QU_Desc"/>
+      <schemaTargets xmi:id="_AO1QLiiZEeidWZ_txNxMYQ" RelativeXPathQuery="OrderQuantityUnit" TagName="QU_Order"/>
+      <schemaTargets xmi:id="_AO1QLyiZEeidWZ_txNxMYQ" RelativeXPathQuery="Factor" TagName="QU_Factor"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_AO1QMCiZEeidWZ_txNxMYQ" name="default" dataManager="_AO1QICiZEeidWZ_txNxMYQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_AO1QMSiZEeidWZ_txNxMYQ" id="_6VI44CiYEeidWZ_txNxMYQ" label="product">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QMiiZEeidWZ_txNxMYQ" label="Sku" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QMyiZEeidWZ_txNxMYQ" label="Name" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QNCiZEeidWZ_txNxMYQ" label="Description" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QNSiZEeidWZ_txNxMYQ" label="ShortDesc" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QNiiZEeidWZ_txNxMYQ" label="Price" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QNyiZEeidWZ_txNxMYQ" label="Currency" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QOCiZEeidWZ_txNxMYQ" label="ReplacedPrice" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QOSiZEeidWZ_txNxMYQ" label="EAN" length="13" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QOiiZEeidWZ_txNxMYQ" label="Picture" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QOyiZEeidWZ_txNxMYQ" label="CategoryID" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QPCiZEeidWZ_txNxMYQ" label="QU_Base" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QPSiZEeidWZ_txNxMYQ" label="QU_Desc" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QPiiZEeidWZ_txNxMYQ" label="QU_Order" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AO1QPyiZEeidWZ_txNxMYQ" label="QU_Factor" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

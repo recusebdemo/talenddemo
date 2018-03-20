@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_RHFrkCnqEei3kuXpqgPNhA" name="Ergebnis" dataPackage="_RHGSqynqEei3kuXpqgPNhA" JSONFilePath="/Volumes/DATA/jcl/Public/Talend/PreSalesDACH - Documents/Customers/EUROBAUSTOFF/2_RFP/Referenzprozess/temp/ergebnis.json" Encoding="UTF-8" inputModel="false">
+    <root xmi:id="_RHGSoCnqEei3kuXpqgPNhA" JSONPath="/product" RelatedColumn="" Attribute="main" Order="53" Type="id_String"/>
+    <root xmi:id="_RHGSoSnqEei3kuXpqgPNhA" JSONPath="/product/sku" RelatedColumn="sku" Attribute="branch" Order="54" Type="id_String"/>
+    <root xmi:id="_RHGSoinqEei3kuXpqgPNhA" JSONPath="/product/name" RelatedColumn="name" Attribute="branch" Order="55" Type="id_String"/>
+    <root xmi:id="_RHGSoynqEei3kuXpqgPNhA" JSONPath="/product/price" RelatedColumn="price" Attribute="branch" Order="56" Type="id_Integer"/>
+    <root xmi:id="_RHGSpCnqEei3kuXpqgPNhA" JSONPath="/product/typeId" RelatedColumn="typeId" Attribute="branch" Order="57" Type="id_String"/>
+    <root xmi:id="_RHGSpSnqEei3kuXpqgPNhA" JSONPath="/product/customAttributes" RelatedColumn="" Attribute="branch" Order="58" Type="id_String"/>
+    <loop xmi:id="_RHGSpinqEei3kuXpqgPNhA" JSONPath="/product/quantity_units" RelatedColumn="" Attribute="main" Order="59" Type="id_String"/>
+    <loop xmi:id="_RHGSpynqEei3kuXpqgPNhA" JSONPath="/product/quantity_units/desc" RelatedColumn="desc" Attribute="branch" Order="60" Type="id_String"/>
+    <loop xmi:id="_RHGSqCnqEei3kuXpqgPNhA" JSONPath="/product/quantity_units/is_baseunit" RelatedColumn="is_baseunit" Attribute="branch" Order="61" Type="id_Boolean"/>
+    <loop xmi:id="_RHGSqSnqEei3kuXpqgPNhA" JSONPath="/product/quantity_units/is_orderunit" RelatedColumn="is_orderunit" Attribute="branch" Order="62" Type="id_Boolean"/>
+    <loop xmi:id="_RHGSqinqEei3kuXpqgPNhA" JSONPath="/product/quantity_units/factor" RelatedColumn="factor" Attribute="branch" Order="63" Type="id_Float"/>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RHGSqynqEei3kuXpqgPNhA" name="default" dataManager="_RHFrkCnqEei3kuXpqgPNhA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RHGSrCnqEei3kuXpqgPNhA" id="_FVOnECnqEei3kuXpqgPNhA" label="ergebnis">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RHGSrSnqEei3kuXpqgPNhA" name="sku" label="sku" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RHGSrinqEei3kuXpqgPNhA" name="name" label="name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RHGSrynqEei3kuXpqgPNhA" name="price" label="price" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RHGSsCnqEei3kuXpqgPNhA" name="typeId" label="typeId" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RHGSsSnqEei3kuXpqgPNhA" name="attributeCode" label="attributeCode" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RHGSsinqEei3kuXpqgPNhA" name="value" label="value" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RHGSsynqEei3kuXpqgPNhA" name="desc" label="desc" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RHGStCnqEei3kuXpqgPNhA" name="is_baseunit" label="is_baseunit" talendType="id_Boolean"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RHGStSnqEei3kuXpqgPNhA" name="is_orderunit" label="is_orderunit" talendType="id_Boolean"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RHGStinqEei3kuXpqgPNhA" name="factor" label="factor" talendType="id_Float"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

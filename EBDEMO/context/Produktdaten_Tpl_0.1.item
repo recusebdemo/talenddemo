@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_mogVgCwiEeiEv5s6W3ZSUg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_mogVgSwiEeiEv5s6W3ZSUg" comment="" name="SKU" prompt="SKU?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_mogVgiwiEeiEv5s6W3ZSUg" comment="" name="DESCRIPTION" prompt="DESCRIPTION?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_mogVgywiEeiEv5s6W3ZSUg" comment="" name="SHORT_DESCRIPTION" prompt="SHORT_DESCRIPTION?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_mogVhCwiEeiEv5s6W3ZSUg" comment="" name="EAN" prompt="EAN?" promptNeeded="false" type="id_Long" value=""/>
+  <contextParameter xmi:id="_mogVhSwiEeiEv5s6W3ZSUg" comment="" name="BODY" prompt="BODY?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

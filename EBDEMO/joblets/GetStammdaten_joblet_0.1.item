@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore">
+  <model:JobletProcess defaultContext="Default" jobType="Standard">
+    <context confirmationNeeded="false" name="Default">
+      <contextParameter comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="_Lak7YCiPEeidWZ_txNxMYQ" type="id_String" value="/Volumes/DATA/jcl/Public/Talend/PreSalesDACH - Documents/Customers/EUROBAUSTOFF/2_RFP/Referenzprozess"/>
+      <contextParameter comment="" name="master_offline" prompt="master_offline?" promptNeeded="false" repositoryContextId="_Qsm1QCt6EeijFMldQhoTaQ" type="id_Boolean" value="true"/>
+    </context>
+    <parameters>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="96" show="false"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false" show="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000" show="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false" show="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;/Volumes/DATA/workspace/TLND651/in.csv&quot;" show="false"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_11" show="false"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+      <routinesParameter id="_vkwdIChkEeir_u8VJyUsJw" name="DQTechnical"/>
+      <routinesParameter id="_vlsRQChkEeir_u8VJyUsJw" name="DataMasking"/>
+      <routinesParameter id="_viuc0ChkEeir_u8VJyUsJw" name="DataOperation"/>
+      <routinesParameter id="_vldAsChkEeir_u8VJyUsJw" name="DataQualityDependencies"/>
+      <routinesParameter id="_vkleAChkEeir_u8VJyUsJw" name="DataQuality"/>
+      <routinesParameter id="_vlFNQChkEeir_u8VJyUsJw" name="DqStringHandling"/>
+      <routinesParameter id="_vj13IChkEeir_u8VJyUsJw" name="Mathematical"/>
+      <routinesParameter id="_vh6kgChkEeir_u8VJyUsJw" name="Numeric"/>
+      <routinesParameter id="_vjQBQChkEeir_u8VJyUsJw" name="Relational"/>
+      <routinesParameter id="_vkORoChkEeir_u8VJyUsJw" name="SQLike"/>
+      <routinesParameter id="_vjcOgChkEeir_u8VJyUsJw" name="StringHandling"/>
+      <routinesParameter id="_vgMtQChkEeir_u8VJyUsJw" name="TalendDataGenerator"/>
+      <routinesParameter id="_vi3mwChkEeir_u8VJyUsJw" name="TalendDate"/>
+      <routinesParameter id="_vil58ChkEeir_u8VJyUsJw" name="TalendStringUtil"/>
+      <routinesParameter id="_viTmEChkEeir_u8VJyUsJw" name="TalendString"/>
+    </parameters>
+    <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="-32">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTClient_1" show="false"/>
+      <elementParameter field="TEXT" name="URL" value="&quot;https://www.ikomsys.de/esb-test/stammdaten&quot;"/>
+      <elementParameter field="TEXT" name="PATH" value="&quot;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="METHOD" value="GET"/>
+      <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/xml" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" value="*/*"/>
+      <elementParameter field="TABLE" name="QUERY"/>
+      <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
+      <elementParameter field="TEXT" name="SERVICE_NAMESPACE" value="&quot;http://www.talend.org/rest/&quot;" show="false"/>
+      <elementParameter field="TEXT" name="SERVICE_NAME" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="SERVICE_ACTIVITY_MONITOR" value="false"/>
+      <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
+      <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC" show="false"/>
+      <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
+      <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="PoLvNyVG2XWndNDdLn696A==" show="false"/>
+      <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="false" show="false"/>
+      <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
+      <elementParameter field="TEXT" name="CORRELATION_VALUE" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="CHECK_SERVER_IDENTITY" value="true"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+      <elementParameter field="CHECK" name="LOG_MESSAGES" value="false"/>
+      <elementParameter field="CHECK" name="FOLLOW_REDIRECTS" value="false"/>
+      <elementParameter field="CHECK" name="REDIRECT_NON_SAME_HOST" value="false" show="false"/>
+      <elementParameter field="CHECK" name="ENABLE_WEBCLIENT_OPERATION_REPORTING" value="true"/>
+      <elementParameter field="CHECK" name="CONVERT_RESPONSE_TO_DOM" value="true" show="false"/>
+      <elementParameter field="CHECK" name="UNWRAP_JSON_REQUEST" value="false" show="false"/>
+      <elementParameter field="CHECK" name="WRAP_JSON_RESPONSE" value="true" show="false"/>
+      <elementParameter field="CHECK" name="CONVERT_TYPES_TO_STRINGS" value="false"/>
+      <elementParameter field="TABLE" name="HEADERS"/>
+      <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
+      <elementParameter field="TABLE" name="SERVICE_ACTIVITY_MONITOR_CUSTOM_PROPERTIES" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_CHUNKED_ENCODING" value="false" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_TIMEOUT" value="30"/>
+      <elementParameter field="LABEL" name="CONNECTION_TIMEOUT_DESC" value="(Studio Only, See Doc for Runtime)"/>
+      <elementParameter field="TEXT" name="RECEIVE_TIMEOUT" value="60"/>
+      <elementParameter field="LABEL" name="RECEIVE_TIMEOUT_DESC" value="(Studio Only, See Doc for Runtime)"/>
+      <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+      <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;61.163.92.4&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PROXY_PORT" value="8080" show="false"/>
+      <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
+      <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Call Service&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tRESTClient_1">
+        <column defaultValue="" key="false" length="0" name="body" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="4048" name="string" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="RESPONSE" name="RESPONSE">
+        <column defaultValue="" key="false" length="0" name="statusCode" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="0" name="body" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="4048" name="string" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="FAULT" name="FAULT">
+        <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+        <column key="false" length="1024" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFilterColumns" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="-32">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFilterColumns_1" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFilterColumns_1">
+        <column key="false" length="4048" name="string" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tNormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="-32">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tNormalize_1" show="false"/>
+      <elementParameter field="PREV_COLUMN_LIST" name="NORMALIZE_COLUMN" value="string"/>
+      <elementParameter field="TEXT" name="ITEMSEPARATOR" value="&quot;\r\n&quot;"/>
+      <elementParameter field="CHECK" name="DEDUPLICATE" value="false"/>
+      <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+      <elementParameter field="CLOSED_LIST" name="ESCAPE_CHAR" value="ESCAPE_MODE_DOUBLED" show="false"/>
+      <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="DISCARD_TRAILING_EMPTY_STR" value="true"/>
+      <elementParameter field="CHECK" name="TRIM" value="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tNormalize_1">
+        <column key="false" length="4048" name="string" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="-32">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_4" show="false"/>
+      <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+      <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+      <elementParameter field="FILE" name="FILENAME" value="context.root_path + &quot;/temp/AllStammdaten.txt&quot;"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+      <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+      <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+      <elementParameter field="CHECK" name="APPEND" value="false"/>
+      <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+      <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+      <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+      <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+      <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+      <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+      <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+      <elementParameter field="CHECK" name="CREATE" value="true"/>
+      <elementParameter field="CHECK" name="SPLIT" value="false"/>
+      <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+      <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+      <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+      <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+      <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Write all to Cache&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFileOutputDelimited_4">
+        <column key="false" length="4048" name="string" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="64">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="row19.errorMessage"/>
+      <elementParameter field="TEXT" name="CODE" value="10"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Service error&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tWarn_2">
+        <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="1024" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFileInputFullRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputFullRow_1" show="false"/>
+      <elementParameter field="FILE" name="FILENAME" value="context.root_path + &quot;/temp/AllStammdaten.txt&quot;"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+      <elementParameter field="TEXT" name="HEADER" value=""/>
+      <elementParameter field="TEXT" name="FOOTER" value=""/>
+      <elementParameter field="TEXT" name="LIMIT" value=""/>
+      <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="CHECK" name="RANDOM" value="false"/>
+      <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Read from Cache&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFileInputFullRow_1">
+        <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFilterRow_4" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+      <elementParameter field="TABLE" name="CONDITIONS">
+        <elementValue elementRef="INPUT_COLUMN" value="line"/>
+        <elementValue elementRef="FUNCTION" value="$source == null? false : $source.matches($target) $operator true"/>
+        <elementValue elementRef="OPERATOR" value="=="/>
+        <elementValue elementRef="RVALUE" value="&quot;0003;.*&quot;"/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+      <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Stazart 0003&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFilterRow_4">
+        <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="FILTER" name="FILTER">
+        <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="REJECT" name="REJECT">
+        <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tReplicate_1" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tReplicate_1">
+        <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="416">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFilterRow_9" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+      <elementParameter field="TABLE" name="CONDITIONS">
+        <elementValue elementRef="INPUT_COLUMN" value="line"/>
+        <elementValue elementRef="FUNCTION" value="$source == null? false : $source.matches($target) $operator true"/>
+        <elementValue elementRef="OPERATOR" value="=="/>
+        <elementValue elementRef="RVALUE" value="&quot;0009;.*&quot;"/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+      <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Stazart 0009&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFilterRow_9">
+        <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="FILTER" name="FILTER">
+        <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="REJECT" name="REJECT">
+        <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="512">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFilterRow_19" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
+      <elementParameter field="TABLE" name="CONDITIONS">
+        <elementValue elementRef="INPUT_COLUMN" value="line"/>
+        <elementValue elementRef="FUNCTION" value="$source == null? false : $source.matches($target) $operator true"/>
+        <elementValue elementRef="OPERATOR" value="=="/>
+        <elementValue elementRef="RVALUE" value="&quot;0007;.*&quot;"/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
+      <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Stazart 0007&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFilterRow_19">
+        <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="FILTER" name="FILTER">
+        <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="REJECT" name="REJECT">
+        <column key="false" length="255" name="line" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tExtractDelimitedFields" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tExtractDelimitedFields_1" show="false"/>
+      <elementParameter field="PREV_COLUMN_LIST" name="FIELD" value="line"/>
+      <elementParameter field="CHECK" name="IGNORE_SOURCE_NULL" value="true"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+      <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+      <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_aJ1bkCiDEeir_u8VJyUsJw - Artikelstammdaten" show="false"/>
+      <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+      <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+      <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+      <elementParameter field="CHECK" name="TRIM" value="false"/>
+      <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+      <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Artikelstammdaten&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="Artikelstammdaten" name="tExtractDelimitedFields_1">
+        <column comment="" key="false" length="4" name="Satzart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="Mandantennummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="Artikelnummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="Artikelgruppe" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="Position_in_Artikelgruppe" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="Guetergruppe" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="40" name="Artikelbezeichnung" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="12" name="Artikelmatchcode_1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="12" name="Artikelmatchcode_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="Basis_ME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column11" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column12" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column13" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column14" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column15" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column17" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column18" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column19" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column20" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column21" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column22" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column23" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column24" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column25" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column26" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column27" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column28" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column29" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column30" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column31" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column32" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column33" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column34" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column35" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column36" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column37" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column38" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column39" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column40" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column41" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column42" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column43" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column44" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="GGVSE__Kennzeichen" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="REJECT" label="Artikelstammdaten" name="REJECT">
+        <column comment="" key="false" length="4" name="Satzart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="Mandantennummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="Artikelnummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="Artikelgruppe" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="Position_in_Artikelgruppe" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="Guetergruppe" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="40" name="Artikelbezeichnung" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="12" name="Artikelmatchcode_1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="12" name="Artikelmatchcode_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="Basis_ME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column11" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column12" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column13" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column14" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column15" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column16" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column17" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column18" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column19" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column20" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column21" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column22" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column23" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column24" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column25" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column26" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column27" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column28" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column29" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column30" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column31" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column32" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column33" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column34" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column35" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column36" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column37" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column38" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column39" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column40" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column41" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column42" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column43" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column44" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="GGVSE__Kennzeichen" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tExtractDelimitedFields" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="416">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tExtractDelimitedFields_2" show="false"/>
+      <elementParameter field="PREV_COLUMN_LIST" name="FIELD" value="line"/>
+      <elementParameter field="CHECK" name="IGNORE_SOURCE_NULL" value="true"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+      <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+      <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_qBOG0CiKEeir_u8VJyUsJw - EAN-Daten" show="false"/>
+      <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+      <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+      <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+      <elementParameter field="CHECK" name="TRIM" value="false"/>
+      <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+      <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>EAN-Daten&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="EAN-Daten" name="tExtractDelimitedFields_2">
+        <column comment="" key="false" length="4" name="Satzart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="Mandantennummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="13" name="EAN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Long" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="Artikelnummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="REJECT" label="EAN-Daten" name="REJECT">
+        <column comment="" key="false" length="4" name="Satzart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="Mandantennummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="13" name="EAN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Long" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="Artikelnummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tExtractDelimitedFields" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="512">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tExtractDelimitedFields_3" show="false"/>
+      <elementParameter field="PREV_COLUMN_LIST" name="FIELD" value="line"/>
+      <elementParameter field="CHECK" name="IGNORE_SOURCE_NULL" value="true"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+      <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+      <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_rMJzcCiLEeir_u8VJyUsJw - Gefahrgutdaten" show="false"/>
+      <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+      <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+      <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+      <elementParameter field="CHECK" name="TRIM" value="false"/>
+      <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+      <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+      <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Gefahrgutdaten&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="Gefahrgutdaten" name="tExtractDelimitedFields_3">
+        <column comment="" key="false" length="4" name="Satzart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="Mandantennummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="Artikelnummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="2" name="Laufende_Nummer" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="UN__Nummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="500" name="Bezeichnung" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column7" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column8" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column9" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column10" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column11" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column12" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column13" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column14" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column15" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column16" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column17" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column18" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column19" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="PDF__Nummer" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="11" name="Gefahrensymbole" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+      <metadata connector="REJECT" label="Gefahrgutdaten" name="REJECT">
+        <column comment="" key="false" length="4" name="Satzart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="3" name="Mandantennummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="Artikelnummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="2" name="Laufende_Nummer" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="UN__Nummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="500" name="Bezeichnung" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column7" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column8" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column9" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column10" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column11" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column12" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column13" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column14" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column15" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column16" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column17" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column18" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="0" name="Column19" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="PDF__Nummer" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="11" name="Gefahrensymbole" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFilterColumns" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFilterColumns_2" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="Artikelstammdaten" name="tFilterColumns_2">
+        <column comment="" key="false" length="8" name="Artikelnummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="40" name="Artikelbezeichnung" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="4" name="Basis_ME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1" name="GGVSE__Kennzeichen" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFilterColumns" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="416">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFilterColumns_3" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="EAN-Daten" name="tFilterColumns_3">
+        <column comment="" key="false" length="13" name="EAN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Long" usefulColumn="true"/>
+        <column comment="" key="false" length="8" name="Artikelnummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFilterColumns" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="512">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFilterColumns_4" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="Gefahrgutdaten" name="tFilterColumns_4">
+        <column comment="" key="false" length="8" name="Artikelnummer" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="6" name="PDF__Nummer" nullable="true" pattern="" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="11" name="Gefahrensymbole" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tSplitRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSplitRow_1" show="false"/>
+      <elementParameter field="TABLE" name="COL_MAPPING">
+        <elementValue elementRef="atrnr" value="row6.Artikelnummer"/>
+        <elementValue elementRef="attributeCode" value="&quot;Artikelbezeichnung&quot;"/>
+        <elementValue elementRef="value" value="row6.Artikelbezeichnung"/>
+        <elementValue elementRef="atrnr" value="row6.Artikelnummer"/>
+        <elementValue elementRef="attributeCode" value="&quot;Basis_ME&quot;"/>
+        <elementValue elementRef="value" value="row6.Basis_ME"/>
+        <elementValue elementRef="atrnr" value="row6.Artikelnummer"/>
+        <elementValue elementRef="attributeCode" value="&quot;GGVSE__Kennzeichen&quot;"/>
+        <elementValue elementRef="value" value="&quot;&quot; + row6.GGVSE__Kennzeichen"/>
+      </elementParameter>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Pivot&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="Artikelstammdaten" name="tSplitRow_1">
+        <column comment="" key="false" length="8" name="atrnr" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="attributeCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tHashOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHashOutput_1" show="false"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="false"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" value="" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DATA_WRITE_MODEL" value="MEMORY"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" value="&quot;/Volumes/DATA/workspace/TLND651/in.hash&quot;" show="false"/>
+      <elementParameter field="TEXT" name="MEMORY_HEAP_MAX_SIZE" value="2" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="KEYS_MANAGEMENT" value="KEEP_ALL"/>
+      <elementParameter field="CHECK" name="APPEND" value="true"/>
+      <elementParameter field="CHECK" name="HASH_KEY_FROM_INPUT_CONNECTOR" value="false" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="Artikelstammdaten" name="tHashOutput_1">
+        <column comment="" key="false" length="8" name="atrnr" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="attributeCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tSplitRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="416">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSplitRow_2" show="false"/>
+      <elementParameter field="TABLE" name="COL_MAPPING">
+        <elementValue elementRef="atrnr" value="row9.Artikelnummer"/>
+        <elementValue elementRef="attributeCode" value="&quot;EAN&quot;"/>
+        <elementValue elementRef="value" value="&quot;&quot; + row9.EAN"/>
+      </elementParameter>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Pivot&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="EAN-Daten" name="tSplitRow_2">
+        <column comment="" key="false" length="8" name="atrnr" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="attributeCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tHashOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="416">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHashOutput_2" show="false"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" value="tHashOutput_1"/>
+      <elementParameter field="CLOSED_LIST" name="DATA_WRITE_MODEL" value="MEMORY" show="false"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" value="&quot;/Volumes/DATA/workspace/TLND651/in.hash&quot;" show="false"/>
+      <elementParameter field="TEXT" name="MEMORY_HEAP_MAX_SIZE" value="2" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="KEYS_MANAGEMENT" value="KEEP_ALL" show="false"/>
+      <elementParameter field="CHECK" name="APPEND" value="true" show="false"/>
+      <elementParameter field="CHECK" name="HASH_KEY_FROM_INPUT_CONNECTOR" value="false" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="EAN-Daten" name="tHashOutput_2">
+        <column comment="" key="false" length="8" name="atrnr" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="attributeCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tSplitRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="512">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSplitRow_5" show="false"/>
+      <elementParameter field="TABLE" name="COL_MAPPING">
+        <elementValue elementRef="atrnr" value="row15.Artikelnummer"/>
+        <elementValue elementRef="attributeCode" value="&quot;PDF__Nummer&quot;"/>
+        <elementValue elementRef="value" value="&quot;&quot; + row15.PDF__Nummer"/>
+        <elementValue elementRef="atrnr" value="row15.Artikelnummer"/>
+        <elementValue elementRef="attributeCode" value="&quot;Gefahrensymbole&quot;"/>
+        <elementValue elementRef="value" value="row15.Gefahrensymbole"/>
+      </elementParameter>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Pivot&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tSplitRow_5">
+        <column comment="" key="false" length="8" name="atrnr" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="attributeCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tHashOutput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="512">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHashOutput_3" show="false"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" value="tHashOutput_1"/>
+      <elementParameter field="CLOSED_LIST" name="DATA_WRITE_MODEL" value="MEMORY" show="false"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" value="&quot;/Volumes/DATA/workspace/TLND651/in.hash&quot;" show="false"/>
+      <elementParameter field="TEXT" name="MEMORY_HEAP_MAX_SIZE" value="2" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="KEYS_MANAGEMENT" value="KEEP_ALL" show="false"/>
+      <elementParameter field="CHECK" name="APPEND" value="true" show="false"/>
+      <elementParameter field="CHECK" name="HASH_KEY_FROM_INPUT_CONNECTOR" value="false" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tHashOutput_3">
+        <column comment="" key="false" length="8" name="atrnr" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="attributeCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tHashInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="640">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHashInput_1" show="false"/>
+      <elementParameter field="CHECK" name="LINK_WITH" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="LIST" value="tHashOutput_1"/>
+      <elementParameter field="FILE" name="BASE_FILE_PATH" value="&quot;/Volumes/DATA/workspace/TLND651/in.hash&quot;" show="false"/>
+      <elementParameter field="CHECK" name="RELEASE_CACHE" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Artikelstammdaten&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="Artikelstammdaten" name="tHashInput_1">
+        <column comment="" key="false" length="8" name="atrnr" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="attributeCode" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="value" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tWriteJSONField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="640">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWriteJSONField_1" show="false"/>
+      <elementParameter field="COLUMN_LIST" name="JSONFIELD" value="customAttributesJSON"/>
+      <elementParameter field="TABLE" name="ROOT" show="false">
+        <elementValue elementRef="PATH" value="/rootTag"/>
+        <elementValue elementRef="COLUMN" value=""/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="ATTRIBUTE" value="main"/>
+        <elementValue elementRef="ORDER" value="1"/>
+      </elementParameter>
+      <elementParameter field="TABLE" name="GROUP" show="false"/>
+      <elementParameter field="TABLE" name="LOOP" show="false">
+        <elementValue elementRef="PATH" value="/rootTag/customAttributes"/>
+        <elementValue elementRef="COLUMN" value=""/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="ATTRIBUTE" value="main"/>
+        <elementValue elementRef="ORDER" value="2"/>
+        <elementValue elementRef="PATH" value="/rootTag/customAttributes/attributeCode"/>
+        <elementValue elementRef="COLUMN" value="attributeCode"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="ATTRIBUTE" value="branch"/>
+        <elementValue elementRef="ORDER" value="3"/>
+        <elementValue elementRef="PATH" value="/rootTag/customAttributes/value"/>
+        <elementValue elementRef="COLUMN" value="value"/>
+        <elementValue elementRef="VALUE" value=""/>
+        <elementValue elementRef="ATTRIBUTE" value="branch"/>
+        <elementValue elementRef="ORDER" value="4"/>
+      </elementParameter>
+      <elementParameter field="EXTERNAL" name="MAP" value=""/>
+      <elementParameter field="TABLE" name="GROUPBYS">
+        <elementValue elementRef="OUTPUT_COLUMN" value="atrnr"/>
+        <elementValue elementRef="INPUT_COLUMN" value="atrnr"/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="REMOVE_ROOT" value="true"/>
+      <elementParameter field="CHECK" name="COMPACT_FORMAT" value="true" show="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tWriteJSONField_1">
+        <column comment="" key="false" length="-1" name="atrnr" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="customAttributesJSON" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="640">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xA;output_row.atrnr = input_row.atrnr;&#xA;output_row.customAttributesJSON = input_row.customAttributesJSON;&#xA;//Custom Code&#xA;Matcher matcher = Pattern.compile(&quot;\\{\&quot;attributeCode\&quot;:\&quot;EAN\&quot;,\&quot;value\&quot;:\&quot;([0-9]*)\&quot;\\}&quot;).matcher(input_row.customAttributesJSON);&#xA;output_row.ean = Long.parseLong((matcher.find())?matcher.group(1):&quot;&quot;);&#xA;&#xA;"/>
+      <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.util.regex.Matcher;&#xA;import java.util.regex.Pattern;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tJavaRow_1">
+        <column comment="" key="false" length="-1" name="atrnr" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Long" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="customAttributesJSON" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="-32">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1" show="false"/>
+      <elementParameter field="TABLE" name="VARIABLES">
+        <elementValue elementRef="KEY" value="&quot;timestamp&quot;"/>
+        <elementValue elementRef="VALUE" value="TalendDate.getCurrentDate().getTime()"/>
+      </elementParameter>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Calculate Timestamp&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tSetGlobalVar_1"/>
+    </node>
+    <node componentName="tFileExist" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="192">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExist_1" show="false"/>
+      <elementParameter field="FILE" name="FILE_NAME" value="context.root_path + &quot;/temp/stammdaten.txt&quot;"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Check Cache&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    </node>
+    <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="&quot;Stammdaten konnten weder durch den zentralen Webservice noch aus dem Zwischenspeicherermittelt werden.&quot;"/>
+      <elementParameter field="TEXT" name="CODE" value="2"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+      <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Cache not existing&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tDie_1"/>
+    </node>
+    <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="96">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="&quot;Webservice der zentralen Stammdaten ist nicht erreichbar&quot;"/>
+      <elementParameter field="TEXT" name="CODE" value="10"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>&lt;b>Service not available&lt;/b>"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tWarn_1">
+        <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="1024" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <connection connectorName="RESPONSE" label="row10" lineStyle="0" metaname="tRESTClient_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tRESTClient_1" target="tFilterColumns_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row10" show="false"/>
+    </connection>
+    <connection connectorName="FAULT" label="row19" lineStyle="0" metaname="tRESTClient_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tRESTClient_1" target="tWarn_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row19" show="false"/>
+    </connection>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRESTClient_1" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_1" target="tFileInputFullRow_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+    </connection>
+    <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tRESTClient_1" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_1" target="tWarn_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError1" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row12" lineStyle="0" metaname="tFilterColumns_1" offsetLabelX="0" offsetLabelY="0" source="tFilterColumns_1" target="tNormalize_1">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="string"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row12" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row11" lineStyle="0" metaname="tNormalize_1" offsetLabelX="0" offsetLabelY="0" source="tNormalize_1" target="tFileOutputDelimited_4">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="line"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row11" show="false"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tWarn_2" offsetLabelX="0" offsetLabelY="0" source="tWarn_2" target="tFileExist_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tFileInputFullRow_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputFullRow_1" target="tReplicate_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+    </connection>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputFullRow_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputFullRow_1" target="tHashInput_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+    </connection>
+    <connection connectorName="FILTER" label="row3" lineStyle="0" metaname="tFilterRow_4" offsetLabelX="0" offsetLabelY="0" source="tFilterRow_4" target="tExtractDelimitedFields_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row16" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tReplicate_1" target="tFilterRow_19">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row16" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tReplicate_1" target="tFilterRow_4">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tReplicate_1" target="tFilterRow_9">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row7" show="false"/>
+    </connection>
+    <connection connectorName="FILTER" label="row5" lineStyle="0" metaname="tFilterRow_9" offsetLabelX="0" offsetLabelY="0" source="tFilterRow_9" target="tExtractDelimitedFields_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
+    </connection>
+    <connection connectorName="FILTER" label="row13" lineStyle="0" metaname="tFilterRow_19" offsetLabelX="0" offsetLabelY="0" source="tFilterRow_19" target="tExtractDelimitedFields_3">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row13" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tExtractDelimitedFields_1" offsetLabelX="0" offsetLabelY="0" source="tExtractDelimitedFields_1" target="tFilterColumns_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tExtractDelimitedFields_2" offsetLabelX="0" offsetLabelY="0" source="tExtractDelimitedFields_2" target="tFilterColumns_3">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row8" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row14" lineStyle="0" metaname="tExtractDelimitedFields_3" offsetLabelX="0" offsetLabelY="0" source="tExtractDelimitedFields_3" target="tFilterColumns_4">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row14" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tFilterColumns_2" offsetLabelX="0" offsetLabelY="0" source="tFilterColumns_2" target="tSplitRow_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tFilterColumns_3" offsetLabelX="0" offsetLabelY="0" source="tFilterColumns_3" target="tSplitRow_2">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row15" lineStyle="0" metaname="tFilterColumns_4" offsetLabelX="0" offsetLabelY="0" source="tFilterColumns_4" target="tSplitRow_5">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row15" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row17" lineStyle="0" metaname="tSplitRow_1" offsetLabelX="0" offsetLabelY="0" source="tSplitRow_1" target="tHashOutput_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row17" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row18" lineStyle="0" metaname="tSplitRow_2" offsetLabelX="0" offsetLabelY="0" source="tSplitRow_2" target="tHashOutput_2">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="attributeCode"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="value"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="atrnr"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row18" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row20" lineStyle="0" metaname="tSplitRow_5" offsetLabelX="0" offsetLabelY="0" source="tSplitRow_5" target="tHashOutput_3">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="attributeCode"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="value"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="atrnr"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row20" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row21" lineStyle="0" metaname="tHashInput_1" offsetLabelX="0" offsetLabelY="0" source="tHashInput_1" target="tWriteJSONField_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row21" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row22" lineStyle="0" metaname="tWriteJSONField_1" offsetLabelX="0" offsetLabelY="0" source="tWriteJSONField_1" target="tJavaRow_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row22" show="false"/>
+    </connection>
+    <connection connectorName="FLOW" label="row23" lineStyle="0" metaname="tJavaRow_1" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_1" target="OUTPUT_1">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="ean"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="row23" show="false"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="PlanedOffline" lineStyle="6" metaname="tSetGlobalVar_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tSetGlobalVar_1" target="tFileInputFullRow_1">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.master_offline"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="PlanedOffline" show="false"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="Online1" lineStyle="6" metaname="tSetGlobalVar_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tSetGlobalVar_1" target="tRESTClient_1">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="!context.master_offline"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="Online1" show="false"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="FallbackOffline" lineStyle="6" metaname="tFileExist_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFileExist_1" target="tFileInputFullRow_1">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="((Boolean)globalMap.get(&quot;tFileExist_1_EXISTS&quot;))"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="FallbackOffline" show="false"/>
+    </connection>
+    <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFileExist_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tFileExist_1" target="tDie_1">
+      <elementParameter field="MEMO_JAVA" name="CONDITION" value="!((Boolean)globalMap.get(&quot;tFileExist_1_EXISTS&quot;))"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="If5" show="false"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tWarn_1" offsetLabelX="0" offsetLabelY="0" source="tWarn_1" target="tFileExist_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
+    </connection>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTClient_1" show="false"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Get Master from internal service"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="254;251;0"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputFullRow_1" show="false"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Parse"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="254;251;0"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHashInput_1" show="false"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Consolidate"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="254;251;0"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetGlobalVar_1" show="false"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Procedure start"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="254;251;0"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileExist_1" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <jobletNodes componentName="OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="640">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OUTPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
+      <elementParameter field="CHECK" name="START" value="false" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+      <metadata connector="FLOW" name="OUTPUT_1">
+        <column comment="" key="false" length="-1" name="atrnr" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="ean" nullable="true" pattern="" precision="-1" sourceType="" type="id_Long" originalLength="-1" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="customAttributesJSON" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      </metadata>
+    </jobletNodes>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+</xmi:XMI>
